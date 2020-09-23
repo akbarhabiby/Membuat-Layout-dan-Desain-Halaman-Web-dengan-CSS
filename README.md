@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-https://akbarhabiby.github.io
+https://akbarhabiby.github.io/Membuat-Layout-dan-Desain-Halaman-Web-dengan-CSS/index.html
 
 :rocket: Rocket Week 4
 
