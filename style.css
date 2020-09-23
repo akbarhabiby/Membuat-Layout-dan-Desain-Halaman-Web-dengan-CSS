@@ -7,6 +7,7 @@
 /* Set Background Image */
 body {
     background-image: url(img/sample-pattern.png);
+    margin: 0;
 }
 
 /* Set Header (for Navigation Bar + Logo) */
