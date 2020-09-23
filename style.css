@@ -1,3 +1,9 @@
+/* Configure all fonts in html */
+* {
+    font-weight: bold;
+    font-family: 'Slabo 27px', serif;
+}
+
 /* Set Background Image */
 body {
     background-image: url(img/sample-pattern.png);
@@ -36,7 +42,6 @@ nav ul a {
 }
 
 nav ul li {
-    font-family: 'Fira Code', monospace;
     display: inline-block;
     color: #4384D7;
     padding: 0px 30px 0px 0px;
@@ -52,15 +57,15 @@ h1 {
     text-align: center;
     font-weight: bold;
     font-size: 50;
-    font-family: 'Fira Code', monospace;
+    color: #34495E;
     margin: 3vh;
 }
 
 /* Article div */
 #article-list {
     border: 0px solid rgba(0, 0, 0, .3);
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 /* Article */
@@ -71,10 +76,10 @@ article {
 }
 
 /* Article Link */
-article h3 {
+article a h3 {
     padding-top: 1vh;
     padding-left: 3vh;
-    font-family: 'Fira Code', monospace;
+    font-size: 20px;
 }
 
 article a {
@@ -88,7 +93,7 @@ article a:hover {
 
 /* Article Paragraph */
 article p {
-    padding: 0vh 3vh 3vh 3vh;
+    padding: 0vh 2vh 3vh 3vh;
 }
 
 /* Set Footer (Copyright) */
@@ -101,7 +106,6 @@ footer {
     padding-top: 10px;
     padding: 10px 0px 10px 0px;
     color: white;
-    font-family: 'Fira Code', monospace;
     background-color: black;
     text-align: center;
 }
