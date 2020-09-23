@@ -1,0 +1,107 @@
+/* Set Background Image */
+body {
+    background-image: url(img/sample-pattern.png);
+}
+
+/* Set Header (for Navigation Bar + Logo) */
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    background-color: white;
+    clear: both;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.31);
+    -moz-box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.31);
+    box-shadow: 0px 10px 5px -4px rgba(0,0,0,0.31);
+}
+
+#logo {
+    padding: 10px 0px 10px 10px;
+    float: left;
+}
+
+header nav {
+    float: right;
+}
+
+nav ul {
+    padding: 3px 10px 0px 0px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+nav ul li {
+    font-family: 'Fira Code', monospace;
+    display: inline-block;
+    color: #4384D7;
+    padding: 0px 30px 0px 0px;
+}
+
+nav ul li:hover {
+    color: black;
+}
+
+/* Featured Posts */
+h1 {
+    padding: 90px 0px 40px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50;
+    font-family: 'Fira Code', monospace;
+    margin: 3vh;
+}
+
+/* Article div */
+#article-list {
+    border: 0px solid rgba(0, 0, 0, .3);
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+/* Article */
+article {
+    padding: 1px;
+    background-color: white;
+    margin: 2px;
+}
+
+/* Article Link */
+article h3 {
+    padding-top: 1vh;
+    padding-left: 3vh;
+    font-family: 'Fira Code', monospace;
+}
+
+article a {
+    color: #4384D7;
+    text-decoration: none;
+}
+
+article a:hover {
+    color: black;
+}
+
+/* Article Paragraph */
+article p {
+    padding: 0vh 3vh 3vh 3vh;
+}
+
+/* Set Footer (Copyright) */
+footer {
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    margin-top: 70px;
+    padding-top: 10px;
+    padding: 10px 0px 10px 0px;
+    color: white;
+    font-family: 'Fira Code', monospace;
+    background-color: black;
+    text-align: center;
+}
