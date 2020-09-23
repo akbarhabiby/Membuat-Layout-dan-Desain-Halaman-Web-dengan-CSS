@@ -1,4 +1,4 @@
-/* Configure all fonts in html */
+/* Configure all fonts in html (default) */
 * {
     font-weight: bold;
     font-family: 'Slabo 27px', serif;
